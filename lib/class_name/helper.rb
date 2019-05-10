@@ -22,7 +22,7 @@ module ClassName
       css_map.flatten.reject(&:blank?).each do |css, bool|
         case css.class.to_s
         when "Integer"
-          classes << to_word(css)
+          classes << ClassName::NumberConverter.to_word(css)
         when "String"
           classes << css
         when "Array"
