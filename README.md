@@ -20,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to `ApplicationHelper`:
+```ruby
+module ApplicationHelper
+  include ClassName
+end
+```
+
+Then use it in your view templates:
+```html
+<div class="<%= class_name('ui card', fluid: false, { blue: true }) %>"></div>
+```
+
+Would generate:
+```html
+<div class="ui card blue"></div>
+```
 
 ## Development
 
