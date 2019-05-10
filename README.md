@@ -1,5 +1,4 @@
-# class_name
-> [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
+# class_name [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
 
 A ruby implementation of Node's [classnames](https://www.npmjs.com/package/classnames) package.
 
