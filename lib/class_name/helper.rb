@@ -20,9 +20,8 @@ module ClassName
     def class_name(*css_map)
       classes = []
       css_map.flatten.reject(&:blank?).each do |css, bool|
-        puts "#{css.class.to_s}: #{css.inspect} #{bool.inspect}"
         case css.class.to_s
-        when "Integer"
+        when "Integer", "Fixnum"
           classes << ClassName::NumberConverter.to_word(css)
         when "String"
           classes << css
