@@ -1,6 +1,10 @@
-require "class_name/version"
+require "active_support"
+require "active_support/core_ext"
+require "class_name/railtie"
+require "class_name/configuration"
+require "class_name/helper"
+require "class_name/number_converter"
 
 module ClassName
-  class Error < StandardError; end
-  # Your code goes here...
+  include ClassName::Helper
 end

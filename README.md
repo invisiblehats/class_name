@@ -1,15 +1,14 @@
-# ClassName
+# class_name
+> [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/class_name`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A ruby implementation of Node's [classnames](https://www.npmjs.com/package/classnames) package.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'class_name'
+gem 'class_name', github: 'invisiblehats/class_name'
 ```
 
 And then execute:
@@ -22,7 +21,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to `ApplicationHelper`:
+```ruby
+module ApplicationHelper
+  include ClassName
+end
+```
+
+Then use it in your view templates:
+```html
+<div class="<%= class_name('ui card', fluid: false, { blue: true }) %>"></div>
+```
+
+Would generate:
+```html
+<div class="ui card blue"></div>
+```
 
 ## Development
 
@@ -32,7 +46,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/class_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/invisiblehats/class_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -41,3 +55,11 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the ClassName project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/class_name/blob/master/CODE_OF_CONDUCT.md).
+
+## Development team
+### People
+- [Myk Klemme - @mklemme](https://github.com/mklemme) Lead developer and maintainer for this project.
+### Partners
+- [Invisible Hat Ventures - @invisiblehats](https://github.com/invisiblehats) A private startup development agency
+- [Love.irish - @love-irish](https://github.com/love-irish) A lifestyle-as-a-service for the Irish language
+- [League of Celts - @league-of-celts](https://github.com/league-of-celts) A non-profit focused on promoting Celtic languages
