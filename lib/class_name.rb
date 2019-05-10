@@ -1,6 +1,7 @@
 require "class_name/version"
+require "class_name/configuration"
+require "class_name/helper"
 
-module ClassName
-  class Error < StandardError; end
-  # Your code goes here...
+ActiveSupport.on_load(:action_view) do
+  include ClassName::Helper
 end
