@@ -1,4 +1,10 @@
-# class_name [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
+# class_name 
+
+[![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
+[![Dependency Status](https://gemnasium.com/invisiblehats/class_name.svg?travis)](https://gemnasium.com/invisiblehats/class_name)
+[![Code Climate](https://codeclimate.com/github/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Inline docs](http://inch-ci.org/github/invisiblehats/class_name.svg)](http://inch-ci.org/github/invisiblehats/class_name)
+[![Security](https://hakiri.io/github/invisiblehats/class_name/master.svg)](https://hakiri.io/github/invisiblehats/class_name/master)
 
 A ruby implementation of Node's [classnames](https://www.npmjs.com/package/classnames) package.
 
