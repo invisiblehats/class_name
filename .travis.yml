@@ -10,7 +10,9 @@ rvm:
   - 2.3.7
   - 2.2.10
   - 2.2.5
-before_install: gem install bundler -v 2.0.1
+before_install:
+  - gem install bundler -v 2.0.1
+  - bundle install
 script:
   # - bundle exec danger
   - bundle exec rspec
