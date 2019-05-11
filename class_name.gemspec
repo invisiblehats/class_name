@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version     = ClassName::VERSION
   spec.authors     = ["Myk Klemme"]
   spec.email       = ["mykklemme@gmail.com"]
-  spec.homepage    = "https://github.cominvisiblehats/class_name"
+  spec.homepage    = "https://github.com/invisiblehats/class_name"
   spec.summary     = "Generate dynamic class strings easily"
   spec.description = "Generate dynamic class strings easily"
   spec.license     = "GNU General Public License v3.0"
