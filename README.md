@@ -1,8 +1,5 @@
 # class_name 
 
----
-
-
 [![IHV](https://img.shields.io/badge/member%20of-Invisible%20Hat%20Ventures-blue.svg)](https://github.com/invisiblehats)
 [![Gem Version](https://badge.fury.io/rb/class_name.svg)](https://badge.fury.io/rb/class_name)
 [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
