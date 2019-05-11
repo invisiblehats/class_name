@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    class_name (1.0.0)
+    class_name (1.0.1)
       activesupport
 
 GEM
