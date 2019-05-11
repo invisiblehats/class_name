@@ -30,6 +30,19 @@ Or install it yourself as:
 
 ## Usage
 
+You can use this in any ruby environment. Test it out in your terminal:
+
+```ruby
+require 'class_name'
+
+include ClassName
+
+class_name("ui card", { fluid: false, flexbox: true, float: false }, ["blue", "inverted"])
+# "ui card flexbox blue inverted"
+```
+
+### Rails
+
 Add this line to `ApplicationHelper`:
 ```ruby
 module ApplicationHelper
