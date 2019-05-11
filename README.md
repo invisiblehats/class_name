@@ -6,9 +6,17 @@
 [![IHV](https://storage.googleapis.com/li-assets/badges/badge.svg?v=1.0)](https://badge.fury.io/rb/class_name)
 [![Gem Version](https://badge.fury.io/rb/class_name.svg)](https://badge.fury.io/rb/class_name)
 [![Build Status](https://travis-ci.com/invisiblehats/class_name.svg?branch=master)](https://travis-ci.com/invisiblehats/class_name)
-[![Code Climate](https://codeclimate.com/github/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Build Status](https://img.shields.io/github/forks/invisiblehats/class_name.svg)](https://github.com/invisiblehats/class_name)
+[![Build Status](https://img.shields.io/github/stars/invisiblehats/class_name.svg)](https://github.com/invisiblehats/class_name)
+[![License](https://img.shields.io/github/license/invisiblehats/class_name.svg)](https://github.com/invisiblehats/class_name)
+[![Build Status](https://img.shields.io/travis/invisiblehats/class_name/master.svg)](https://travis-ci.org/invisiblehats/class_name)
 [![Inline docs](http://inch-ci.org/github/invisiblehats/class_name.svg)](http://inch-ci.org/github/invisiblehats/class_name)
 [![Security](https://hakiri.io/github/invisiblehats/class_name/master.svg)](https://hakiri.io/github/invisiblehats/class_name/master)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Technical Debt](https://img.shields.io/codeclimate/tech-debt/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+[![Test Coverage](http://img.shields.io/coveralls/invisiblehats/class_name/master.svg)](https://coveralls.io/r/invisiblehats/class_name?branch=master)
 
 ---
 
