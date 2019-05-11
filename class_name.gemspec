@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Myk Klemme"]
   spec.email       = ["mykklemme@gmail.com"]
   spec.homepage    = "https://github.cominvisiblehats/class_name"
-  spec.summary     = "Summary of ClassName."
-  spec.description = "Description of ClassName."
-  spec.license     = "GPU"
+  spec.summary     = "Generate dynamic class strings easily"
+  spec.description = "Generate dynamic class strings easily"
+  spec.license     = "GNU General Public License v3.0"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org/"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
