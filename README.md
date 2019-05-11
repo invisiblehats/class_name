@@ -12,8 +12,10 @@
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
 [![Technical Debt](https://img.shields.io/codeclimate/tech-debt/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
+<!-- 
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/github/invisiblehats/class_name.svg)](https://codeclimate.com/github/invisiblehats/class_name)
 [![Test Coverage](http://img.shields.io/coveralls/invisiblehats/class_name/master.svg)](https://coveralls.io/r/invisiblehats/class_name?branch=master)
+-->
 
 ---
 
