@@ -5,6 +5,6 @@ require "class_name/configuration"
 require "class_name/helper"
 require "class_name/number_converter"
 
-module ClassName
+ActiveSupport.on_load(:action_view) do
   include ClassName::Helper
 end
